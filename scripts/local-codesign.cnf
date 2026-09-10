@@ -1,0 +1,17 @@
+[req]
+distinguished_name = subject
+x509_extensions = extensions
+prompt = no
+
+[subject]
+CN = ShuLaSong Local Code Signing
+O = Ricky Ge Local Development
+OU = Mouse Marathon
+C = CN
+
+[extensions]
+basicConstraints = critical,CA:TRUE,pathlen:0
+keyUsage = critical,digitalSignature,keyCertSign
+extendedKeyUsage = codeSigning
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
