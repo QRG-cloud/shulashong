@@ -80,4 +80,4 @@ Info.plist                      macOS 应用配置
 
 ## License
 
-暂未指定开源许可证。代码版权归项目作者所有。
+本项目采用 [MIT License](LICENSE)，Copyright (c) 2026 QRG-cloud。
